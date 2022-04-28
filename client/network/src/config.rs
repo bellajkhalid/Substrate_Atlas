@@ -164,7 +164,7 @@ impl fmt::Display for Role {
 		match self {
 			Self::Full => write!(f, "FULL"),
 			Self::Light => write!(f, "LIGHT"),
-			Self::Authority { .. } => write!(f, "AUTHORITY"),
+			Self::Authority { .. } => write!(f, "AUTHORITYY"),
 		}
 	}
 }
